@@ -74,7 +74,7 @@ async def rnv1(client , u):
     elif not Config.AUTH_USERS:
         await rnv2(client , u)
     else:
-        await u.reply_text(text=f"sorry ! you cant use this bot.\n\ndeploy your own bot:\n[Repository_Link](https://github.com/prxpostern/URLtoTG001)", quote=True, disable_web_page_preview=True)
+        await u.reply_text(text=f"sorry ! you cant use this bot.\n\ndeploy your own bot:\n[Jettastic](https://t.me/jettastic)", quote=True, disable_web_page_preview=True)
         return
     
 @Client.on_message(filters.private & filters.command(["rna"]))
@@ -85,7 +85,7 @@ async def rna1(client , u):
     elif not Config.AUTH_USERS:
         await rna2(client , u)
     else:
-        await u.reply_text(text=f"sorry ! you cant use this bot.\n\ndeploy your own bot:\n[Repository_Link](https://github.com/prxpostern/URLtoTG001)", quote=True, disable_web_page_preview=True)
+        await u.reply_text(text=f"sorry ! you cant use this bot.\n\ndeploy your own bot:\n[Jettastic](https://t.me/jettastic)", quote=True, disable_web_page_preview=True)
         return
 
 @Client.on_message(filters.private & filters.command(["rnf"]))
@@ -96,7 +96,7 @@ async def rnf1(client , u):
     elif not Config.AUTH_USERS:
         await rnf2(client , u)
     else:
-        await u.reply_text(text=f"sorry ! you cant use this bot.\n\ndeploy your own bot:\n[Repository_Link](https://github.com/prxpostern/URLtoTG001)", quote=True, disable_web_page_preview=True)
+        await u.reply_text(text=f"sorry ! you cant use this bot.\n\ndeploy your own bot:\n[Jettastic](https://t.me/jettastic)", quote=True, disable_web_page_preview=True)
         return
    
 @Client.on_message(filters.private & filters.command(["c2v"]))
@@ -107,7 +107,7 @@ async def to_video1(client , u):
     elif not Config.AUTH_USERS:
         await to_video2(client , u) 
     else:
-        await u.reply_text(text=f"sorry ! you cant use this bot.\n\ndeploy your own bot:\n[Repository_Link](https://github.com/prxpostern/URLtoTG001)", quote=True, disable_web_page_preview=True)
+        await u.reply_text(text=f"sorry ! you cant use this bot.\n\ndeploy your own bot:\n[Jettastic](https://t.me/jettastic)", quote=True, disable_web_page_preview=True)
         return
     
 @Client.on_message(filters.private & (filters.audio | filters.document | filters.video))
@@ -127,5 +127,5 @@ async def leecher1(client , u):
     elif not Config.AUTH_USERS:
         await leecher2(client , u)
     else:
-        await u.reply_text(text=f"sorry ! you cant use this bot.\n\ndeploy your own bot:\n[Repository_Link](https://github.com/prxpostern/URLtoTG001)", quote=True, disable_web_page_preview=True)
+        await u.reply_text(text=f"sorry ! you cant use this bot.\n\ndeploy your own bot:\n[Jettastic](https://t.me/jettastic)", quote=True, disable_web_page_preview=True)
         return
