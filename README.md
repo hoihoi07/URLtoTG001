@@ -24,8 +24,8 @@ A Simple Telegram Bot to Upload Files From **Direct Links** and **Google Drive L
 
 ### 💜 Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/hoihoi07/URLtoTG001)
 
 ### 💜 Railway
 
-[![Deploy To Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/prxpostern/URLtoTG001&envs=API_ID,API_HASH,BOT_TOKEN)
+[![Deploy To Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/hoihoi07/URLtoTG001&envs=API_ID,API_HASH,BOT_TOKEN)
